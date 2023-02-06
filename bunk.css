@@ -1,0 +1,118 @@
+input[type=number] {
+    -moz-appearance: textfield;
+    outline: none;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    outline: none;
+  }  
+.haha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.major{
+    height: 300px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.aaa{
+    color: white;
+    flex:1;
+    margin-top: -36px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BingBong{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: 0;
+    -ms-transform:translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.hoursAttended{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 20px;
+    background-color: rgba(141, 137, 137, 0.158);
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.5s,box-shadow 0.5s,color 0.5s;
+    color: aliceblue;
+}
+.hoursAttended:focus{
+    background-color: azure;
+    box-shadow:0px 5px 10px rgba(224, 222, 222, 0.158);
+    color: black;
+}
+.sub{
+    margin-left: 20px;
+    padding-top: 4px;
+    height: 40px;
+    padding-bottom: 4px;
+    border: solid rgb(212, 212, 212);
+    color: aliceblue;
+    width: 75px;
+    border-radius:25px;
+    border-width: 1px;
+    background-color: rgb(17, 16, 16);
+    transition:background-color 0.7s,color 0.7s,box-shadow 0.5s;
+}
+
+.sub:hover{
+    background-color: white;
+    color: black;
+    box-shadow:0px 5px 10px rgba(224, 222, 222, 0.158);
+}
+
+.Calculate{
+    margin-left: 20px;
+    padding-top: 4px;
+    height: 40px;
+    padding-bottom: 4px;
+    border: solid rgb(0, 0, 0);
+    color:rgb(141, 184, 148);
+    width: 100px;
+    border-radius:25px;
+    border-width: 1px;
+    background-color:rgb(24, 31, 30);
+    transition:background-color 0.7s,color 0.7s,box-shadow 0.5s,margin-top 0.3s;
+}
+
+.Calculate:hover{
+    background-color: rgb(17, 16, 16);
+    color:white;
+    box-shadow:0px 5px 10px rgba(224, 222, 222, 0.158);
+}
+
+.Calculate:active{
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}  
+#demn{
+    margin-top: -500px;
+    z-index: 5;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 300px;
+    visibility: hidden;
+    width: 1600px;
+    padding-right: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
